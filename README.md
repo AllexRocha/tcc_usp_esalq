@@ -38,13 +38,13 @@ Souto-Maior, C.D.; Borba, J.A.; da Costa Jr., N.C.A. 2011. S&P 500 Index Directi
    - **Descrição**: Notebook Jupyter que detalha a aplicação do modelo LSTM. Inclui o ajuste dos hiperparâmetros, treinamento da rede neural e análise das previsões realizadas para o Índice Ibovespa.
 
 4. **[treino.csv](https://github.com/AllexRocha/tcc_usp_esalq/blob/master/dados_tratados/treino.csv)**
-   - **Descrição**: Arquivo CSV contendo os dados de treinamento utilizados para ajustar os modelos de previsão. Inclui informações históricas do Índice Ibovespa para o período definido para o treinamento.
+   - **Descrição**: Arquivo CSV contendo os dados de treinamento utilizados para ajustar os modelos de previsão. Inclui informações históricas do Índice Ibovespa para o período de 01 jan. 2010  até 03 maio 2021.
 
 5. **[teste.csv](https://github.com/AllexRocha/tcc_usp_esalq/blob/master/dados_tratados/teste.csv)**
-   - **Descrição**: Arquivo CSV com os dados de teste usados para avaliar a performance dos modelos de previsão. Contém dados do Índice Ibovespa que não foram utilizados durante o treinamento dos modelos.
+   - **Descrição**: Arquivo CSV com os dados de validação usados para avaliar a performance dos modelos de previsão. Inclui informações históricas do Índice Ibovespa para o período de 03 maio 2021 até 31 dez. 2023.
 
 6. **[previsao.csv](https://github.com/AllexRocha/tcc_usp_esalq/blob/master/dados_tratados/previsao.csv)**
-   - **Descrição**: Arquivo CSV contendo as previsões geradas pelos modelos para o Índice Ibovespa. Inclui as previsões feitas para o período de teste, permitindo a comparação com os valores reais.
+   - **Descrição**: Arquivo CSV contendo as previsões geradas pelos modelos para o Índice Ibovespa. Inclui informações históricas do Índice Ibovespa para o período de 31 dez. 2023 à 31 maio 2024.
 
 
 Para executar os arquivos e simular as previsões deve ser usado algum programa capaz de executar arquivos ipynb como jupyter notebook ou vscode.
